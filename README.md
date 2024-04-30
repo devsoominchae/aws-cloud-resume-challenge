@@ -11,6 +11,8 @@ This is my attempt of the [cloud resume challenge in AWS](https://cloudresumecha
 - API Gateway
 - Lambda
 - Dynamo DB
+- Route 53
+- GitHub Actions
 
 # Unique Features
 1. API Gateway
