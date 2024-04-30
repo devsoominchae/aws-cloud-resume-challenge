@@ -3878,32 +3878,57 @@ input, select, textarea {
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
+		text-align: left; /* Align text and links to the right */
 	}
 
+	#intro p {
+		font-size: 1.25em;
+		text-align: left; /* Align text to the left */
+	}
+
+	#intro ul {
+		list-style: none; /* Remove default list styles */
+		padding: 0; /* Remove default padding */
+		display: inline; /* Display links inline */
+	}
+
+	#intro ul li {
+		margin-left: 1em; /* Add spacing between links */
+		display: inline; /* Display links inline */
+	}
+
+	#intro ul li:first-child {
+		margin-left: 0; /* Remove left margin from first link */
+	}
+
+	#intro ul li a {
+		color: #ffffff; /* Change link color */
+		text-decoration: none; /* Remove underline */
+		font-size: 1em; /* Adjust font size */
+	}
+
+	#intro ul li a:hover {
+		color: #cccccc; /* Change link color on hover */
+	}
+
+	@media screen and (max-width: 980px) {
+		#intro p br {
+			display: none;
+		}
+	}
+
+	@media screen and (max-width: 736px) {
 		#intro p {
-			font-size: 1.25em;
+			font-size: 1em;
 		}
+	}
 
-			@media screen and (max-width: 980px) {
-
-				#intro p br {
-					display: none;
-				}
-
-			}
-
-			@media screen and (max-width: 736px) {
-
-				#intro p {
-					font-size: 1em;
-				}
-
-			}
-
-		@media screen and (max-width: 1280px) {
-
-			#intro {
-				background-attachment: scroll;
-			}
-
+	@media screen and (max-width: 1280px) {
+		#intro {
+			background-attachment: scroll;
 		}
+	}
+
+	.social-icon {
+		color: #3c2c62;
+	}
