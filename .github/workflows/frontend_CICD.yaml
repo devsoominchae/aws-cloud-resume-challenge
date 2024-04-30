@@ -13,7 +13,7 @@ jobs:
     - name: Current directory
       run: pwd
     - name: List directory
-      run: ll
+      run: ls -la
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
       with:
