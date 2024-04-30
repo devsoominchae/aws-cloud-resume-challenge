@@ -1,6 +1,5 @@
 name: Upload Website
 run: pwd
-run: ll
 
 on:
   workflow_dispatch:
