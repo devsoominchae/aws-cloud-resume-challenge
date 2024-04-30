@@ -151,7 +151,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		/* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
 		color: inherit;
 		text-decoration: none;
 	}
@@ -3892,6 +3892,12 @@ input, select, textarea {
 		display: inline; /* Display links inline */
 	}
 
+	.social-list{
+		font-size: 40px;
+		margin: 0 0 0 0;
+		padding-left: 50;
+	}
+
 	#intro ul li {
 		margin-left: 1em; /* Add spacing between links */
 		display: inline; /* Display links inline */
@@ -3929,6 +3935,6 @@ input, select, textarea {
 		}
 	}
 
-	.social-icon {
-		color: #3c2c62;
+	.italic-text {
+		font-style: italic;
 	}
