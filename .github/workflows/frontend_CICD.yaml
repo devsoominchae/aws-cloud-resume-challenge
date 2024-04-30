@@ -10,6 +10,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+    - name: Change directory
+      run: cd /home/runner/work
+    - name: List directory
+      run : ls -la
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
       with:
@@ -19,4 +23,4 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: 'ap-northeast-2'
-        SOURCE_DIR: '/home/runner/work/aws-cloud-resume-challenge'
+        SOURCE_DIR: 'aws-cloud-resume-challenge'
