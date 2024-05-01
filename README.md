@@ -23,7 +23,10 @@ The original challenge did not include the API Gateway to invoke the Lambda func
 1. View count for today
 2. Total time users spent
 3. Section for AI to answer questions about me (Amazon Comprehend)
+
    Q. Does Soo Min have experience in customer support?
+   
    A. Yes. He worked as frontline support for Texas Tech University between November 2019 to April 2020. He supported troubleshooting network and OS issues.
-4. View count per country
-5. Keyword search feature for my skills. Summarize my experience and projects for each keyword.
+   
+5. View count per country
+6. Keyword search feature for my skills. Summarize my experience and projects for each keyword.
