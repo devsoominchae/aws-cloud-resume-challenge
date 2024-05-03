@@ -1,4 +1,4 @@
-fetch('cloud-resume-challenge-key/key.json')
+fetch('s3://cloud-resume-challenge-key/key.json')
     .then((response) => response.json())
     .then((json) => console.log(json))
 
