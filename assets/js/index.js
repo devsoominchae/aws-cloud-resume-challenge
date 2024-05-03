@@ -1,8 +1,3 @@
-fetch('s3://cloud-resume-challenge-key/key.json')
-    .then((response) => response.json())
-    .then((json) => console.log(json))
-
-
 const total_counter = document.querySelector(".total-views");
 async function updateTotalViews() {
     let response = await fetch("https://api.soominchae.net/getAndUpdateTotalViews", {
