@@ -1,3 +1,8 @@
+var custom_headers = {
+    "X-Api-Key": "8ooAVuyUuI42Ub6L8GMA27GpINme1M7m8XQuBmEL",
+    "Content-Type": "application/json"
+}
+
 const total_counter = document.querySelector(".total-views");
 async function updateTotalViews() {
     let response = await fetch("https://api.soominchae.net/getAndUpdateTotalViews", {
