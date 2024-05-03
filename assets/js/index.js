@@ -1,4 +1,4 @@
-fetch('s3://soomin-cloud-resume-challenge/key.json')
+fetch('soomin-cloud-resume-challenge/key.json')
     .then((response) => response.json())
     .then((json) => console.log(json))
 
