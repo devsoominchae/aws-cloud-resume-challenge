@@ -2008,6 +2008,10 @@ input, select, textarea {
 				border-left: solid 1px rgba(255, 255, 255, 0.15);
 			}
 
+			.features section:nth-child(2n).noleft {
+				border-left: none;
+			}
+
 			.features section .icon {
 				-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
@@ -3937,4 +3941,10 @@ input, select, textarea {
 
 	.italic-text {
 		font-style: italic;
+	}
+
+	.curve_chart {
+		margin: 0 0 2em 0;
+		width: 80%;
+		height: 400px;
 	}
