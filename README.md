@@ -25,7 +25,7 @@ The original challenge did not include the API Gateway to invoke the Lambda func
 
 # Additional features (Planning)
 1. Total time users spent
-2. Section for AI to answer questions about me (Amazon Comprehend)
+2. Section for AI to answer questions about me
 
    Q. Does Soo Min have experience in customer support?
    
